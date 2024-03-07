@@ -21,3 +21,23 @@ TAGS
 tests.iml
 # Auto-copied by sbt-microsites
 docs/src/main/tut/contributing.md
+
+# customized git ignore
+# bloop and metals
+.metals/*
+forex-mtl/.bloop/*
+forex-mtl/*.bsp
+forex-mtl/.metals/*
+forex-mtl/project/metals.sbt
+forex-mtl/project/.bloop/*
+
+# vs code
+*.vscode
+
+# sbt
+forex-mtl/project/project/*
+forex-mtl/project/target/*
+forex-mtl/target/*
+
+# ignore users
+users/*
